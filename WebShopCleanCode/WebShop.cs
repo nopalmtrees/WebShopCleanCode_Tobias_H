@@ -478,7 +478,6 @@ namespace WebShopCleanCode
                         else
                         {
                             return userInput;
-
                         }
                     }
                 }
@@ -488,10 +487,7 @@ namespace WebShopCleanCode
                 }
                 Console.WriteLine("n/ y or n, please. n/");
             }
-
-
         }
-
         private void AddFunds()
         {
             switch (currentChoice)
